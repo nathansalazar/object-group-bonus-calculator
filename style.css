@@ -1,0 +1,31 @@
+#button {
+    background-color: forestgreen;
+    border-radius: 10%;
+    border: solid gold 2px; 
+    color: gold;
+    font-size: 3em;
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+}
+
+body {
+    background-color: turquoise;
+}
+
+ul {
+    background-color: gold;
+    color: forestgreen;
+    border: solid gold 2px;
+    border-radius: 10%;
+}
+
+li {
+    width: 20%;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 4em;
+    color: gold;
+}

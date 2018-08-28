@@ -1,16 +1,17 @@
 #button {
     background-color: forestgreen;
     border-radius: 10%;
-    border: solid gold 2px; 
+    border: solid gold 2px;
     color: gold;
     font-size: 3em;
     margin: auto;
-    width: 50%; 
+    width: 50%;
     text-align: center;
 }
 
 body {
     background-color: turquoise;
+    background-image: url("http://bestanimations.com/Money/Dollars/dollar-sign-symbol-22.gif");
 }
 
 ul {

@@ -1,3 +1,14 @@
+$( document ).ready( readyNow );
+
+function readyNow(){
+  console.log('JQ');
+}
+
+
+
+
+
+
 class Employee{
   constructor( name, employeeNumber, annualSalary, reviewRating ){
     this.name = name;
@@ -25,3 +36,20 @@ const employees = [ atticus, jem, scout, robert, mayella ]; // this is an array 
 // Ask questions when you don't.
 
 console.log( employees );
+
+for (let i = 0; i < employees.length; i++) {
+  console.log(compensationReporter(employees[i]));
+}
+
+function compensationReporter(employee){
+  let comp = bonusCalculator(employee);
+  let compReport = {
+    name: employee.name,
+    bonusPercentage: comp[0],
+    totalCompensation: comp[1],
+    totalBonus: comp[2]
+  }
+  return compReport;
+}
+
+
